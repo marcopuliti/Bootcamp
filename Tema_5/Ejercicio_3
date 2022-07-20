@@ -1,0 +1,5 @@
+def es_bisiesto(n):
+  if (n % 4 == 0 and (n % 100 != 0 or n % 400 == 0)):
+      print(f"El año {n} es bisiesto")
+  else:
+      print(f"El año {n} no es bisiesto")
